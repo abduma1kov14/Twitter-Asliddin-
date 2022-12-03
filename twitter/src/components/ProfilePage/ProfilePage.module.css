@@ -1,0 +1,124 @@
+.profile  {
+  width: 600px;
+  border-left: 1px solid rgb(201, 200, 200);
+  border-right: 1px solid rgb(201, 200, 200);
+  margin-left: 220px;
+}
+.content__title {
+  backdrop-filter: blur(10px);
+  background: rgba(196, 192, 192, 0.409);
+  width: 599px;
+  padding: 10px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  cursor: pointer;
+}
+.content__title > h1 {
+    font-size: 22px;
+}
+.content__title> p {
+  font-size: 14px;
+}
+
+.content__header {
+  margin-top: 4rem;
+  height: 200px;
+  width: 599px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.338);
+}
+
+.content__user {
+  /* width: 100%; */
+  width: 649px;
+}
+.content__user>  .user__top {
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user__top > img {
+  margin-top: 65px;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border: 3px solid white;
+}
+
+.edit_btn {
+  cursor: pointer;
+  position: absolute;
+  height: 40px;
+  margin-top: 200px;
+  margin-left: 400px;
+  width: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.362);
+  border-radius: 50px;
+}
+
+.user__btm {
+  padding: 0 20px;
+}
+
+.tweets {
+  padding: 0 40px;
+  margin-top: 40px;
+}
+
+.tweets>  ul  {
+  margin-top: 230px;
+  margin-left: -35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.tweets  > #tweets__list {
+  padding: 10px;
+  min-width: 100px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 50px;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.tweets > .tweets__tweet {
+  position: relative;
+  transition: 0.2s linear;
+}
+    
+  
+.user__btm > h2 {
+  font-size: 25px;
+  margin-left: 20px;
+  margin-top: 145px;
+  position: absolute;
+}
+
+.user__btm > p {
+  margin-left: 20px;
+  margin-top: 170px;
+  position: absolute;
+}
+
+.line {
+  min-width: 50px;
+  position: relative;
+  top: 3px;
+  height: 3px;
+  transition: 0.2s linear;
+  background: #289fcf;
+}

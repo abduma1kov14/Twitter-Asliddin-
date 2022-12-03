@@ -1,0 +1,131 @@
+.middle {
+  border-left: 1px solid rgb(201, 200, 200);
+  border-right: 1px solid rgb(201, 200, 200);
+  position: relative;
+  width: 600px;
+  margin-left: 220px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navigation > h1 {
+  font-weight: 100;
+  font-family: inherit;
+  margin-left: 15px;
+}
+.star {
+  padding: 0px 16px 0px 0px;
+  height: 25px; 
+  margin-top: 12px;
+}
+.star:hover {
+  cursor: pointer;
+}
+
+.users {
+  display: flex;
+  margin-left: 22px;
+}
+
+.users > img {
+  width: 48px;
+  height: 48px;
+}
+.users > h1 {
+  margin-left: 20px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.input1 {
+  border: none;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.input1:focus {
+  outline: none;
+}
+.icons {
+  display: flex;
+  align-items: flex-start;
+  padding: 9px 10px;
+  gap: 10px;
+  margin-left: 45px;
+  margin-top: 20px;
+}
+.icons > img {
+  width: 20px;
+  height: 20px;
+}
+
+.icons > img:hover{
+  cursor: pointer;
+}
+
+.icons_button {
+  font-size: 15px;
+  background: #1d9bf0;
+  border-radius: 27.5px;
+  padding: 8px 20px;
+  border: none;
+  color: #fff;
+  margin-left: 260px;
+  cursor: pointer;
+}
+
+.icons_button:disabled {
+  background: #000;
+  cursor: no-drop;
+}
+.icons > .tweet_photo {
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -1px;
+  width: 3.4%;
+  border-radius: 2px;
+  opacity: 0;
+  height: 100%;
+}
+
+.icons > .tweet_photo:hover{
+  cursor: pointer;
+}
+
+.someFile {
+  width: 200px;
+  position: relative;
+  left: -100px;
+}
+
+button > h1 {
+  cursor: pointer;
+  margin-top: -13px;
+}
+
+.someFile > img {
+  width: 480px;
+  height: 331px;
+  margin-left: 135px;
+  margin-top: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.removeBtn {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 40px;
+  height: 40px;
+  background: rgb(177, 177, 177);
+  border: none;
+  border-radius: 50px;
+}
+

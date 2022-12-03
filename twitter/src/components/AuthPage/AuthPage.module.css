@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    width: 1240px;
+}
+
+.authPage {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    /* position: fixed; */
+}
+
+.bgImg {
+    width: 800px;
+    position: fixed;
+    height: 760px;
+    user-select: none;
+    left: 0%;
+}
+
+.twitBird {
+    position: fixed;
+    left: 250px;
+    top: 270px;
+    width: 360px;
+}
+
+.rightSide {
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    position: fixed;
+    margin-left: 613px;
+}
+
+.auth {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.authAbout > h2 {
+    width: 564px;
+    color: #000;
+    font-size: 65px;
+    font-family: inherit;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.authAbout > p {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    width: 647px;
+    line-height: 37px;
+}
+
+.authBy > button {
+    max-width: 400px;
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    padding: 15px 56px 17px ; 
+    border-radius: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.authBy > button:first-child {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    padding: 15px 60px ; 
+}
+
+.authBy > button > img {
+    width: 25px;
+}
+
+.authWithPhoneOrEmail {
+    position: absolute;
+    margin-top: 15px;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid black;
+    width: 300px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-left: 55px;
+    border-radius: 40px;
+    font-size: 13px;
+    height: 40px;
+}
+
+.toc {
+    margin-top: 70px;
+    width: 320px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #71767b;
+    margin-bottom: 50px;
+}
+
+.toc > a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
+.toc > a:hover {
+    text-decoration: underline;
+    color: #1d9bf0;
+}
+
+.toc_one {
+    margin-top: 70px;
+    width: 320px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #71767b;
+    margin-bottom: 50px;
+}
+
+.toc_one > a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #1d9bf0;
+}
+
+.toc_one > a:hover {
+    text-decoration: underline;
+    color: #1d9bf0;
+}
+
+.bottomSide {
+    padding-right: 60px;
+    margin: 0%;
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    color: #000;
+    bottom: none;
+    height: 30px;
+}
+
+.politics{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: -200px;
+    justify-content: space-between;
+    width: 100%;
+    height: 1px;
+}
+
+.politics > li {
+    list-style-type: none;
+}
+
+.politics > li > a {
+    color: #000;
+    letter-spacing: 0.001px;
+    text-decoration: none;
+    font-size: 10px;
+    transition: .2s ease;
+    position: absolute;
+    margin-top: 740px;
+}
+
+.politics > li > a:hover {
+    text-decoration: underline;
+    color: #1d9bf0;
+}
+
+.politics > li > p {
+    font-size: 10px;
+    color: #000;
+}
